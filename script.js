@@ -77,9 +77,4 @@ function getRandomComputerResult() {
      return `rgb(${r}, ${g}, ${b})`;
    }
  
-   // Event listener to change color on click
-   colorBox.addEventListener("click", () => {
-     const randomColor = getRandomColor();
-     colorBox.style.backgroundColor = randomColor;
-     colorBox.textContent = randomColor;
-   });
+  
